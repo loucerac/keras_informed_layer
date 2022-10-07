@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "keras-informed-layer"
+version = "0.1.0"
+description = "Keras Layer class for knowledge primed layers."
+authors = ["Carlos Loucera <carlos.loucera@juntadeandalucia.es>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "keras_informed_layer"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
