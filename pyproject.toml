@@ -29,3 +29,19 @@ safety = "^2.3.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--ff -ra -v"
+python_functions = [
+    "test_*",
+]
+testpaths = [
+    "tests",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 88
