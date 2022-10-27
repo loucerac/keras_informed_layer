@@ -1,3 +1,11 @@
+"""
+author: Carlos Loucera
+email: carlos.loucera@junatdeandalucia.es
+Adapted from AmirAlavi/sparsely-connected-keras
+
+Knowledge Primed Layers for Keras.
+"""
+
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
